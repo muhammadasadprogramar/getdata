@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins" sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(21, 116, 116);
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.info {
+  width: 100%;
+  min-height: 60vh;
+  background-color: rgb(31, 143, 104);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left {
+  text-align: left;
+}
+
+/* .box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+} */
+
+.box input {
+  width: 100%;
+  padding: 7px 0;
+  outline: none;
+  border: none;
+  border: 2px solid rgb(33, 33, 253);
+  padding-left: 15px;
+  border-radius: 7px;
+}
+
+.box button {
+  padding: 9px 0;
+  outline: none;
+  border: none;
+  background-color: white;
+  color: #000;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.box button:hover {
+  background-color: rgb(64, 64, 248);
+  color: #fff;
+}
+
+.box button:active {
+  transform: scale(0.96);
+}
+
+img {
+  border-radius: 20px;
+}
+h2 {
+  margin-top: 15px;
+}
+p  {
+  width: 95%;
+  font-size: 17px;
+  margin-top: 15px;
+}
